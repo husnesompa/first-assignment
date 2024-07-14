@@ -21,7 +21,6 @@ h2 {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-    display: flex;
 }
 
 /*font family added*/
@@ -48,7 +47,7 @@ header p {
 
 header button {
     padding: 15px 22px;
-    margin: 0px 8px;
+    margin: 12px 8px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 18px;
@@ -89,7 +88,7 @@ header button {
     text-align: center;
 }
 
-.main_view button {
+.main_view a {
     padding: 21px 24px 21px 24px;
     margin: 10px;
     color: rgb(255, 255, 255);
@@ -99,6 +98,7 @@ header button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*main part ended*/
@@ -108,11 +108,9 @@ header button {
 .why_web {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 70px;
-    padding: 70px;
+    margin: 60px;
+    padding: 60px;
 }
-
-
 
 .why_web p {
     margin: 24px 0px;
@@ -121,7 +119,7 @@ header button {
 
 .why_web_content {
     display: flex;
-    padding: 48px;
+    padding: 35px;
     margin: 32px 0px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
@@ -137,7 +135,6 @@ header button {
     line-height: 36px;
     text-align: left;
 }
-
 
 .text_part button {
     font-family: Azeret Mono;
@@ -197,24 +194,19 @@ header button {
 
 /* .current_target_part started*/
 
-
-.current_target_part {
-    margin: 70px;
-}
-
 .ct_pra {
     margin: 0px 150px;
 }
 
 .current_target_description_part {
     display: flex;
-    margin: 40px;
+    margin: 30px;
 
 }
 
 .html_part {
     padding: 40px;
-    margin: 0px 24px;
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     border-radius: 16px;
@@ -241,11 +233,6 @@ header button {
 
 .indivi_part img {
     width: 56px;
-    margin: 24px 0px;
-}
-
-.indivi_part p {
-    margin: 8px 0px;
 }
 
 .indivi_part h4 {
@@ -253,13 +240,97 @@ header button {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
-    margin: 8px 0px;
+    margin: 16px 0px;
 }
 
 .indivi_part a {
     text-decoration: underline;
     font-weight: 700;
-    margin: 24px 0px;
+    margin: 28px 0 0px 0px;
     cursor: pointer;
 }
+
 /* .current_target_part ended*/
+
+/* .Support-part started*/
+
+.support_part {
+    width: 1140px;
+    height: 240px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    margin: 55px 62px;
+    background: url('../img/handshake.jpg');
+    padding: 64px 48px 64px 48px;
+    background-size: cover;
+    background-position: center;
+}
+
+.support_part h5 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 40px;
+
+}
+
+.support_part p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+input[type=text] {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 45px 0px 0px 235px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type=button] {
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* .Support-part ended*/
+.footer_part {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 58px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+.footer_part p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px;
+}
+
+.footer_part .social_links {
+    display: flex;
+}
+
+.footer_part .social_links a img {
+    margin: 0 10px;
+}
